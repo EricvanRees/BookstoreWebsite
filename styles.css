@@ -1,0 +1,124 @@
+/* || CSS RESET 
+
+/* style header: */
+
+/* Set logo to top left
+
+/* Set UL to horizontal menu, style UL (fontsize, ff, add links)
+
+/* extra: add shakespeare favicon to HTML header
+
+/* Center H1, figcaption and image
+
+/* set image width and height in CSS + HTML (orig size)
+
+/* create block for JJ quote -> 100% width
+
+/* set bgcolor for quote
+
+/* set font family for quote, center quote + authorname on another line
+
+/* add nowrap span for author name + quote
+
+/* use flexbox for creating 2 columns for 2nd image + history paragraph
+
+/* set width + height 2nd image
+
+/* style history paragraph (fontsize, font-family, bgcolor)
+
+/* style footer
+*/ 
+
+/* || CSS RESET */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+/* || INDIVIDUAL ELEMENT STYLING (CLASSES TO BE ADDED LATER) */
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+  margin-top: 40px;
+}
+
+li a {
+  
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: dotted;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+div {
+  text-align: center;
+  padding: 30px 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: medium;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+img {
+  width: 900px;
+  height: 500px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.quote {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  background-color: rgb(64, 206, 95);
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;;
+}
+
+section.quote q {
+  font-style: normal;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+section.quote p.author {
+  font-size: 1em;
+  font-style: italic;
+}
