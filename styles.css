@@ -106,8 +106,8 @@ section.quote {
   height: 200px;
   background-color: rgb(64, 206, 95);
   text-align: center;
-  margin-top: 25px;
-  margin-bottom: 25px;;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 section.quote q {
@@ -121,4 +121,78 @@ section.quote q {
 section.quote p.author {
   font-size: 1em;
   font-style: italic;
+}
+
+span {
+  white-space: nowrap;
+}
+
+article {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+}
+
+article figure {
+  display: inline;
+  flex: 1;
+  padding: 1px;
+    
+}
+
+article img {
+  height: auto;
+  width: 50%;
+}
+
+article p {
+  display: flex;
+  width: 50%;
+  height: auto;
+  background-color: rgb(145, 149, 153);
+  font-size: 1.3em;
+  align-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 160px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+article.info {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(2, 80, 2);
+}
+
+article.info p { 
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:max-content;
+  background-color: rgb(2, 80, 2);
+  justify-content: space-between;
+  padding-top: 30px;
+  flex: 1;
+  margin: 0;
+  line-height: 0.2;
+}
+
+article.info p:nth-child(3), article.info p:nth-child(7) {
+  margin-top: 15px;
+} 
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 20px;
 }
