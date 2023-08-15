@@ -177,7 +177,6 @@ article img {
 }
 
 article.history p.history_par {
-  display: flex;
   width: 50%;
   height: auto;
   background-color: rgb(145, 149, 153);
@@ -192,23 +191,28 @@ article.history p.history_par {
   padding-bottom: 20px;
 }
 
+span.empty_line {
+  display: block;
+  margin-top: 1em;
+}
+
 article.info {
   display: flex;
   flex-direction: column;
   background-color: rgb(2, 80, 2);
+  height: 500px;
 }
 
 article.info p { 
   font-family: 'Courier New', Courier, monospace;
   color: white;
-  font-size: 1em;
+  font-size: 0.8em;
   text-align: center;
   display: flex;
   flex-direction: column;
   width: 100%;
-  height:max-content;
+  height: 40px;
   background-color: rgb(2, 80, 2);
-  justify-content: space-between;
   padding-top: 30px;
   flex: 1;
   margin: 0;
