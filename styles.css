@@ -86,7 +86,7 @@ li a:hover {
 }
 
 section.hero {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 div {
@@ -95,7 +95,8 @@ div {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
+  font-weight: bold;
 }
 
 p {
