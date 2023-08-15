@@ -150,10 +150,13 @@ section.quote q {
 section.quote p.author {
   font-size: 1em;
   font-style: italic;
+  height: 50px;
+  margin-top: 20px;
 }
 
 span {
   white-space: nowrap;
+  
 }
 
 article {
@@ -165,8 +168,7 @@ article {
 article figure {
   display: inline;
   flex: 1;
-  padding: 1px;
-    
+  padding: 1px;    
 }
 
 article img {
@@ -174,12 +176,12 @@ article img {
   width: 50%;
 }
 
-article p {
+article.history p.history_par {
   display: flex;
   width: 50%;
   height: auto;
   background-color: rgb(145, 149, 153);
-  font-size: 1.3em;
+  font-size: 1em;
   align-content: center;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
