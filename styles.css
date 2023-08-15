@@ -46,6 +46,15 @@ img {
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.5rem;
+  overflow-x: hidden
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 ul {
@@ -65,8 +74,7 @@ li {
   margin-top: 40px;
 }
 
-li a {
-  
+li a {  
   color: white;
   text-align: center;
   padding: 16px;
@@ -75,6 +83,10 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+section.hero {
+  margin-top: 75px;
 }
 
 div {
